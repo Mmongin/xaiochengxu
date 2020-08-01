@@ -1,0 +1,47 @@
+<!-- <view class="backgroundimg">
+    <image class="background" src="../img/jiazhanghzuanqu.png"></image>
+</view> -->
+
+<!-- 设置头部 -->
+<view class="kaixue">
+	<text class="word">开学准备</text>
+</view>
+
+
+<!-- 设置准备列表 -->
+<view class="zhunbei">
+	<text>准备列表</text>
+	<view class="xiaoren">
+		<image src="../img2/shalou.png"></image>
+	</view>
+</view>
+
+<!-- 设置选择框列表 -->
+<view class="liebiao">
+	<view class="btn" style="background-color:#72AC75;animation-name:movein;animation-duration:2s;animation-delay:1s;">
+		<text>来校路线</text>
+		<image src="../img2/luxian.png" style="width:80rpx;height:60rpx;padding-right:38rpx"></image>
+	</view>
+	<view class="btn"  style="background-color:#AAD18F;animation-name:movein;animation-duration:2s;animation-delay:1.3s;">
+		<text>校车接送</text>
+		<image src="../img2/xiaoche.png" style="width:90rpx;height:90rpx;padding-right:32rpx;"></image>
+	</view>
+	<view class="btn" style="background-color:#C2E3B2;animation-name:movein;animation-duration:2s;animation-delay:1.6s;">
+		<text>必备物品</text>
+		<image src="../img2/wupin.png" style="width:70rpx;height:70rpx;padding-right:42rpx"></image>
+	</view>
+	<view class="btn" style="background-color:#B6E1BD;animation-name:movein;animation-duration:2s;animation-delay:1.9s;">
+		<text>防骗指南</text>
+		<image src="../img2/fangpian.png" style="width:80rpx;height:80rpx; padding-right: 42rpx;"></image>
+	</view>
+</view>
+
+<!-- 设置底部返回栏 -->
+<view class="backbox">
+	<view class="back">
+		<view class="backword">
+			<text>返回首页</text>
+		</view>
+		<image src="../img/fanhui.png"></image>
+	</view>
+</view>

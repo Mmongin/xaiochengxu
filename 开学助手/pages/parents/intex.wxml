@@ -1,0 +1,47 @@
+<!-- <view class="backgroundimg">
+    <image class="background" src="../img/jiazhanghzuanqu.png"></image>
+</view> -->
+
+<!-- 设置头部 -->
+<view class="jiazhang">
+	<text class="word">家长专区</text>
+</view>
+
+
+<!-- 设置专区列表 -->
+<view class="zhuanqu">
+	<text>专区列表</text>
+	<view class="xiaoren">
+		<image src="../img/xaioren.png"></image>
+	</view>
+</view>
+
+<!-- 设置选择框列表 -->
+<view class="liebiao">
+	<view class="btn" style="background-color:#B6E0BD">
+		<text>周边酒店住宿推荐</text>
+		<image src="../img/zhusu.png" style="width:70rpx;height:70rpx;padding-right:38rpx"></image>
+	</view>
+	<view class="btn" style="background-color:#AAD18F">
+		<text>临潼旅游地点</text>
+		<image src="../img/lvyou.png" style="width:80rpx;height:80rpx;padding-right:32rpx;padding-bottom:30rpx"></image>
+	</view>
+	<view class="btn" style="background-color:#C2E3B2">
+		<text>临潼美食餐饮推荐</text>
+		<image src="../img/canyin.png" style="width:60rpx;height:60rpx;padding-right:42rpx"></image>
+	</view>
+	<view class="btn" style="background-color:#93C192">
+		<text>告家长书</text>
+		<image src="../img/gaozhi.png" style="width:70rpx;height:70rpx; padding-right: 42rpx;"></image>
+	</view>
+</view>
+
+<!-- 设置底部返回栏 -->
+<view class="backbox">
+	<view class="back">
+		<view class="backword">
+			<text>返回首页</text>
+		</view>
+		<image src="../img/fanhui.png"></image>
+	</view>
+</view>

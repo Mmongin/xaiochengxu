@@ -1,0 +1,178 @@
+<!-- 设置头部 -->
+<view class="daoxiao">
+	<text class="word">学生到校情况</text>
+</view>
+
+
+<!-- 设置专区列表 -->
+<view class="qingkuang">
+	<text>情况列表</text>
+	<view class="xiaoren">
+		<image src="../t_arrimg/xiaoren.png"></image>
+	</view>
+</view>
+
+<!-- 设置滑动列表 -->
+<view class="huadong">
+	<scroll-view scroll-y="true" style="height: 1000rpx;" bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll" scroll-into-view="{{toView}}" scroll-top="{{scrollTop}}">
+		<view id="demo1" class="huadong-btn">
+			<view class="shijian">
+				<view>
+					<image style="height: 66rpx;width: 66rpx;margin-left:100rpx" src="../t_arrimg/shizhong.png"></image>
+				</view>
+				<view>
+					<text>2020-8-1</text>
+				</view>
+				<view>
+					<image style="height: 66rpx;width: 18rpx;" src="../t_arrimg/dian.png"></image>
+				</view>
+			</view>
+
+			<view class="renshu">
+				<view class="daoxiao">
+					<view class="shang">
+						<text class="word">到校人数
+          </text>
+						<view class="dian" style=" background: rgba(182, 229, 189, 1);"></view>
+					</view>
+					<text class="num">20人</text>
+				</view>
+
+				<view class="daoxiao">
+					<view class="shang">
+						<text class="word">未到校人数
+          </text>
+						<view class="dian" style=" background:rgba(239,191,191,1);"></view>
+					</view>
+					<text class="num">20人</text>
+				</view>
+
+
+
+
+			</view>
+		</view>
+		<view id="demo2" class="huadong-btn">
+			<view class="shijian">
+				<view>
+					<image style="height: 66rpx;width: 66rpx;margin-left:100rpx" src="../t_arrimg/shizhong.png"></image>
+				</view>
+				<view>
+					<text>2020-8-1</text>
+				</view>
+				<view>
+					<image style="height: 66rpx;width: 18rpx;" src="../t_arrimg/dian.png"></image>
+				</view>
+			</view>
+
+			<view class="renshu">
+				<view class="daoxiao">
+					<view class="shang">
+						<text class="word">到校人数
+          </text>
+						<view class="dian" style=" background: rgba(182, 229, 189, 1);"></view>
+					</view>
+					<text class="num">20人</text>
+				</view>
+
+				<view class="daoxiao">
+					<view class="shang">
+						<text class="word">未到校人数
+          </text>
+						<view class="dian" style=" background:rgba(239,191,191,1);"></view>
+					</view>
+					<text class="num">20人</text>
+				</view>
+
+			</view>
+		</view>
+		<view id="demo3" class="huadong-btn">
+			<view class="shijian">
+				<view>
+					<image style="height: 66rpx;width: 66rpx;margin-left:100rpx" src="../t_arrimg/shizhong.png"></image>
+				</view>
+				<view>
+					<text>2020-8-1</text>
+				</view>
+				<view>
+					<image style="height: 66rpx;width: 18rpx;" src="../t_arrimg/dian.png"></image>
+				</view>
+			</view>
+
+			<view class="renshu">
+				<view class="daoxiao">
+					<view class="shang">
+						<text class="word">到校人数
+          </text>
+						<view class="dian" style=" background: rgba(182, 229, 189, 1);"></view>
+					</view>
+					<text class="num">20人</text>
+				</view>
+
+				<view class="daoxiao">
+					<view class="shang">
+						<text class="word">未到校人数
+          </text>
+						<view class="dian" style=" background:rgba(239,191,191,1);"></view>
+					</view>
+					<text class="num">20人</text>
+				</view>
+
+			</view>
+		</view>
+		<view id="demo4" class="huadong-btn">
+			<view class="shijian">
+				<view>
+					<image style="height: 66rpx;width: 66rpx;margin-left:100rpx" src="../t_arrimg/shizhong.png"></image>
+				</view>
+				<view>
+					<text>2020-8-1</text>
+				</view>
+				<view>
+					<image style="height: 66rpx;width: 18rpx;" src="../t_arrimg/dian.png"></image>
+				</view>
+			</view>
+
+			<view class="renshu">
+				<view class="daoxiao">
+					<view class="shang">
+						<text class="word">到校人数
+          </text>
+						<view class="dian" style=" background: rgba(182, 229, 189, 1);"></view>
+					</view>
+					<text class="num">20人</text>
+				</view>
+
+				<view class="daoxiao">
+					<view class="shang">
+						<text class="word">未到校人数
+          </text>
+						<view class="dian" style=" background:rgba(239,191,191,1);"></view>
+					</view>
+					<text class="num">20人</text>
+				</view>
+
+			</view>
+		</view>
+	</scroll-view>
+</view>
+
+<!--底部切换栏开始-->
+<view class="bottomTabbar">
+	<view class="{{'change ' + animation1}}" wx:if="{{change}}"> 
+		<view class="{{one?'choose click':'choose'}}" bindtap="huizong">汇总</view>
+		<view class="{{two?'choose click':'choose'}}" bindtap="banji1">班级1</view>
+		<view class="{{three?'choose click':'choose'}}" bindtap="banji2">班级2</view>
+		<view class="{{four?'choose click':'choose'}}" bindtap="banji3">班级3</view>
+		<view class="{{five?'choose click':'choose'}}" bindtap="banji4">班级4</view>
+		<view class="choose" bindtap="search" bindanimationstart="animationstart">
+			<image src="../t_arrimg/sousuo.png"></image>
+		</view>
+	</view>
+	<view class="{{'search ' + animation2}}" wx:if="{{!change}}">
+		<view>
+			<input placeholder="输入你想查找的班级" class="searchpla" confirm-type="search" bindconfirm="find"></input>
+			<image src="../t_arrimg/cuohao.png" bindtap="search"></image>
+		</view>
+	</view>
+</view>

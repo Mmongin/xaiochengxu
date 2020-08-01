@@ -1,0 +1,16 @@
+<!--pages/demo1/demo1.wxml-->
+<!-- 
+1.需要给input标签绑定 input事件
+绑定关键字 bindinput
+-->  
+
+<input bindinput="handleInput">
+
+</input>
+<button>+</button>
+<button>-</button>
+  <view>
+     {{num}}
+  </view>
+
+  

@@ -1,0 +1,118 @@
+/*背景登陆*/
+
+#body {
+  background: url(https://qiniu.mutou135468.top/9d2f26e4-d20a-11ea-ba98-00163e0a349f.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+}
+
+/*中心块*/
+
+.centerDemo {
+  width: 92%;
+  height: 553px;
+  margin: auto;
+  margin-top: 135rpx;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.16);
+  border-radius: 25px;
+  position: relative;
+}
+
+/*文字信息*/
+
+.detailDemo {
+  width: 92%;
+  height: 75%;
+  margin: auto;
+  padding-top: 120rpx;
+}
+
+/*欢迎标题*/
+
+.huanyin {
+  width: 140rpx;
+  height: 70rpx;
+  font-size: 70rpx;
+  font-family: STHeiti;
+  font-weight: 400;
+  line-height: 84rpx;
+  letter-spacing: 10rpx;
+  color: rgba(69, 64, 64, 1);
+}
+
+/*输入信息*/
+
+.information {
+  height: 650rpx;
+  width: 95%;
+  margin-left: 20rpx;
+}
+
+.information image {
+  width: 55rpx;
+  height: 53rpx;
+}
+
+.infor {
+  width: 100%;
+  height: 100rpx;
+  border-bottom: 2rpx solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.name {
+  flex: 8;
+  margin-left: 45rpx;
+  height: 40rpx;
+  font-size: 40rpx;
+  font-family: STHeiti;
+  font-weight: 400;
+  line-height: 40rpx;
+  letter-spacing: 5rpx;
+  color: rgba(0, 0, 0, 1);
+}
+
+.choose {
+  width: 100%;
+  height: 165rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tip {
+  width: 100%;
+  height: 40rpx;
+  font-size: 40rpx;
+  font-family: STHeiti;
+  font-weight: 400;
+  line-height: 48rpx;
+  letter-spacing: 8rpx;
+  text-align: left;
+  margin-bottom: 20rpx;
+  margin-top: 10rpx;
+  color: rgba(68, 107, 69, 1);
+}
+
+/*完成*/
+
+.enter {
+  padding: 0 !important;
+  width: 80% !important;
+  height: 105rpx;
+  margin: auto;
+  background: rgba(182, 224, 189, 1);
+  border-radius: 20px;
+  font-size: 45rpx;
+  font-family: STHeiti;
+  font-weight: 400;
+  line-height: 105rpx;
+  letter-spacing: 12rpx;
+  color: rgba(82, 82, 82, 1);
+}

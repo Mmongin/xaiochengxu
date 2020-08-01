@@ -1,0 +1,291 @@
+/* pages/T_arrival/intex.wxss */
+page {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background: url(https://qiniu.mutou135468.top/20e09430-d2d0-11ea-bd57-00163e0a349f.jpg);
+  background-size: cover;
+}
+
+
+/* 设置头部学生到校情况 */
+.daoxiao {
+  /* position: fixed;
+  top: 150rpx; */
+  width: 92%;
+  margin: 40rpx auto;
+  height: 50rpx;
+  line-height: 50rpx;
+  text-align: center;
+  /* position: relative; */
+  /* background-color: aqua; */
+}
+
+.daoxiao .word {
+  width: 224prx;
+  font-weight: 500;
+  letter-spacing: 5rpx;
+  height: 80prx;
+  font-size: 56rpx;
+  color: #466E29;
+  text-shadow: 0px 5px 3px rgba(0, 0, 0, 0.16);
+}
+
+/* 设置专区列表栏 */
+.qingkuang {
+  width: 92%;
+  height: 170rpx;
+  display: flex;
+  text-decoration: row;
+  margin: auto;
+  text-align: center;
+  justify-content: space-between;
+}
+
+
+.qingkuang text {
+  width: 160rpx;
+  height: 56rpx;
+  font-size: 40rpx;
+  color: #2B411B;
+
+}
+
+
+.qingkuang image {
+  display: flex;
+  align-items: center;
+  margin-top: 20rpx;
+  margin-right: 100rpx;
+  width: 105rpx;
+  height: 105rpx;
+}
+
+/* 设置滑动列表 */
+.huadong {
+  width: 90%;
+  height: 1100rpx;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.huadong-btn {
+  width: 95%;
+  height: 250rpx;
+  background-color: #FDFDFD;
+  margin:auto;
+  margin-bottom: 30rpx;
+  margin-top: 20rpx;
+  box-shadow: 6px -6px 6px rgba(0, 0, 0, 0.16);
+  border-radius: 50rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.huadong-btn .shijian {
+  width: 90%;
+  height: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 25rpx;
+}
+
+.huadong-btn .shijian text {
+  margin-left: -90rpx;
+  font-size: 48rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  line-height: 65rpx;
+  color: rgba(28, 28, 28, 1);
+}
+
+/* 滑动下半部分 */
+
+.renshu {
+  width: 95%;
+  height: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.renshu .daoxiao {
+  width: 300rpx;
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.renshu .shang{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.renshu .word {
+  /* width: 200rpx;
+  height: 50rpx; */
+  font-size: 40rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  line-height: 28px;
+  color: rgba(88, 88, 88, 1);
+  margin-right: 10rpx;
+}
+
+.renshu .dian {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  opacity: 1;
+}
+
+.renshu .num{
+font-size:40rpx;
+font-family:PingFang SC;
+font-weight:600;
+line-height:65rpx;
+color:rgba(47,72,47,1);
+}
+
+
+/*底部*/
+.bottomTabbar {
+  position: fixed;
+  bottom: 48rpx;
+  width: 100%;
+  height: 126rpx;
+}
+
+.bottomTabbar .change {
+  width: 92%;
+  height: 126rpx;
+  margin: auto;
+  border-radius: 40rpx;
+  box-shadow: 0px 10rpx 10rpx rgba(0, 0, 0, 0.16);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 15rpx;
+  font-family: STHeiti;
+  background-color: #fff;
+}
+
+.bottomTabbar .choose {
+  flex: 1;
+  text-align: center;
+  position: relative;
+  height: 80rpx;
+  line-height: 80rpx;
+  color: #578958;
+  font-size: 32rpx;
+  letter-spacing: 1rpx;
+}
+
+.choose image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -28rpx;
+  margin-left: -28rpx;
+  width: 56rpx;
+  height: 56rpx;
+}
+
+.click {
+  flex: 1.5 !important;
+  font-size: 40rpx !important;
+  color: #446b45 !important;
+  border-bottom: 5rpx solid #446b45 !important;
+}
+
+.bottomTabbar .search {
+  width: 92%;
+  height: 126rpx;
+  margin: auto;
+  border-radius: 40rpx;
+  box-shadow: 0px 10rpx 10rpx rgba(0, 0, 0, 0.16);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-family: STHeiti;
+  background-color: #fff;
+}
+
+.search>view {
+  width: 100%;
+  height: 85%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchpla {
+  text-align: center;
+  font-size: 18px;
+  font-family: STHeiti;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 10rpx;
+  color: rgba(132, 132, 132, 1);
+}
+
+.search input {
+  width: 80%;
+  height: 80rpx;
+  background: rgba(245, 245, 245, 1);
+  margin-right: 20rpx;
+  border-radius: 10px;
+  letter-spacing: 5rpx
+}
+
+.search image {
+  width: 55rpx;
+  height: 55rpx;
+}
+/*进场动画*/
+.in {
+  animation: in 0.8s ease 1 normal forwards;
+}
+
+@keyframes in {
+  0% {
+    transform: translate(0, 40);
+    opacity: 0;
+  }
+  25% {
+    transform: translate(0, 30rpx);
+    opacity: 0.25;
+  }
+  50% {
+    transform: translate(0, 20rpx);
+    opacity: 0.5;
+  }
+  75% {
+    transform: translate(0, 10rpx);
+    opacity: 0.75;
+  }
+  100% {
+    transform: translate(0, 0rpx);
+    opacity: 1;
+  }
+}

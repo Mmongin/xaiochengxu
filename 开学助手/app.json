@@ -1,0 +1,18 @@
+{
+  "pages":[
+    "pages/T_arrival/intex",
+    "pages/T_arrivalsearch/intex",
+
+    "pages/termbegin/intex",
+    "pages/parents/intex"
+  
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,17 @@
+{
+  "pages":[
+    "pages/demo1/demo1",
+    "pages/logs/logs",
+    "pages/demo/demo",
+    "pages/index/index"
+  
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#0099bb",
+    "navigationBarTitleText": "Weixin777",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,42 @@
+<!--pages/demo/demo.wxml-->
+<text>pages/demo/demo.wxml</text>
+
+<view>{{msg}}</view>
+
+<view>{{num}}</view>
+
+<view>是否是女生：{{isGril}}</view>
+  
+<view>{{person.age}} </view>
+<view>{{person.height}} </view>
+
+<view data-num="{{num}}">自定义属性</view>
+  
+<view>
+    <checkbox checked="{{isChecked}}">
+        
+    </checkbox>
+</view>
+
+<view hidden="{{flag ? true : false}}">
+    Hidden
+</view>
+  
+列表循环
+<view>
+   <view 
+   wx:for="{{list}}"
+   wx:for-item="value"
+   wx-for-index="key"
+   wx:key="id" >
+    索引：{{index}}
+    --
+    值：{{value.name}}
+   </view>
+</view>
+
+
+   
+
+  
+  

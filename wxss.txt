@@ -1,0 +1,29 @@
+/* 设置准备列表栏 */
+.zhunbei {
+  width: 92%;
+  height: 170rpx;
+  display: flex;
+  text-decoration: row;
+  margin: auto;
+  text-align: center;
+  justify-content: space-between;
+}
+
+/* 专区栏中的文字 */
+.zhunbei text {
+  width: 160rpx;
+  height: 56rpx;
+  font-size: 40rpx;
+  color: #2B411B;
+
+}
+
+/* 设置专区栏中的图片 */
+.zhunbei image {
+  display: flex;
+  align-items: center;
+  margin-top: 20rpx;
+  margin-right: 100rpx;
+  width: 90rpx;
+  height: 90rpx;
+}

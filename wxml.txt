@@ -1,0 +1,13 @@
+<!-- 设置头部 -->
+<view class="kaixue">
+	<text class="word">开学准备</text>
+</view>
+
+
+<!-- 设置准备列表 -->
+<view class="zhunbei">
+	<text>准备列表</text>
+	<view class="xiaoren">
+		<image src="../img2/shalou.png"></image>
+	</view>
+</view>

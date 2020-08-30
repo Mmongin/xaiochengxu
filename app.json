@@ -1,0 +1,27 @@
+{
+  "pages":[
+
+    "pages/food/demo8",
+    "pages/hotel/demo7",
+    "pages/schoolbus/demo6",
+    "pages/tellparents/demo5",
+    "pages/guide/demo4",
+    "pages/cheat/demo3",
+    "pages/object/demo2",
+    "pages/comeschool/demo1",
+    
+    "pages/personal/index",
+    "pages/termbegin/index",
+    "pages/parents/index",
+    "pages/T_arrival/index",
+    "pages/T_arrivalsearch/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
